@@ -10,6 +10,7 @@ const usersSchema = new Schema({
   email:     { type: String, required: true },
   password:  { type: String, required: true },
   // x..x..x..x..x..x..x..x..x..x..x..x..x..x..x..x..x..x..x..x..x..x
+})
 
 const taskSchema = new Schema ({
     content: String
